@@ -1,0 +1,38 @@
+stack=[]
+#method to append the element in the stack at the top
+def push():
+    if len(stack)==n: #to check the stack condition
+        print("stack is overflow!")
+    else:
+        element= input("enter the element:")
+        stack.append(element) #to add the next element
+        print(stack)
+
+#method to pop last element
+def pop_element():
+    if not stack: 
+        print("stack is empty!")
+    else:
+        e=stack.pop()
+        print("removed element:",e)
+        print(stack)
+
+#method to check if stack is empty or not
+def isempty():
+        return stack==[]
+
+print("------------" + "Stack Using Array" + "---------------")
+n=int(input("enter the limit:-"))# user input
+
+#drive code
+while True:
+    print("select the operation \n 1.Push\n 2.Pop\n 3.quit\n Enter the operation:")
+    choice=int(input()) #operation choice
+    if choice==1:
+        push()
+    elif choice==2:
+        pop_element()
+    elif choice==3:
+        break
+    else:
+        print("enter the correct operation")
