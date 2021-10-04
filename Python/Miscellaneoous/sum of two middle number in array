@@ -1,0 +1,24 @@
+''''get the array'''
+arr1=list(map(int,input("enter the array1:-").strip().split()))
+arr2=list(map(int,input("enter the array2:-").strip().split()))
+
+'''concate & sort'''
+a=arr1+arr2
+a.sort()
+print("the sorted array is:",a)
+
+'''to get the lenthg of array after concate &sort'''
+b=len(a)
+print("length of sorted array:-",b)
+
+'''driver code'''
+if(b%2==0):
+    median1=a[b//2]                 
+    median2=a[b//2-1]#to find the 2nd median
+    print("1st median is:-",median1)
+    print("2nd median is:-",median2)
+    median3=median1+median2 #to get sum of median
+    print("sum of both median is:-",median3)
+else:
+    median=a[b//2]
+    print("median is:"+str(median))
