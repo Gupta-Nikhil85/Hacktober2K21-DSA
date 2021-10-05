@@ -1,5 +1,5 @@
 ![hacktober](https://user-images.githubusercontent.com/73641466/135753072-1416b24c-cef1-4d31-96ed-6188df76f1e2.jpg)
-# Hacktober2K21-DSA
+# HacktoberFest21-DSA
 ## What to do?
 #### 1 You can add any piece of code or project, you want to share.
 #### 2 There is no need to raise an issue, you can directly create a pull request.
@@ -8,4 +8,4 @@
 ## Note:- Don't add Hello world programs try to maintain **"quality over quantity".**
 
 ### **Maintain the code of conduct and open source guidelines.**
-### All the best for Hacktober2K21 :).
+### All the best for HacktoberFest21 :).
