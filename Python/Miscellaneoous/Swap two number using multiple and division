@@ -1,0 +1,8 @@
+num_1=int(input("enter the 1st number"))
+num_2=int(input("enter the second number"))
+num_1=num_1*num_2
+num_2=num_1/num_2
+num_1=num_1/num_2
+print("--------After swapping--------------------")
+print("num_1=",int(num_1))
+print("num_2",int(num_2))
