@@ -1,5 +1,5 @@
 thislist = ["apple", "banana", "cherry"] #this is a list in python
-print(thislist) #Output: [ "cherry"]
+print(thislist) #Output: ["apple", "banana", "cherry"]
 
 #length of a list
 print(len(thislist)) #Output: 3
