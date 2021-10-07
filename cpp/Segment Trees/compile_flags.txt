@@ -1,0 +1,10 @@
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include\c++
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\mingw32
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include\c++\backward
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include
+-Ic:\MinGW\include
+-Ic:\MinGW\lib\gcc\mingw32\9.2.0\include-fixed
+-IC:\Users\pranav pundeer\Documents\firstworkspace\segment_tree
+-std=c++14
+-target
+i686-pc-windows-gnu
