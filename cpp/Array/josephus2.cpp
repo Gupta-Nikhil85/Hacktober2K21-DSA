@@ -9,7 +9,9 @@ int josephus(int n,int k){
 	 auto it =l.begin();
 	 while(l.size()>1){
 		 for(int count=1;count<k;count++){
-			 it++;
+			 
+
+				it++;
 			 if(it==l.end()){it=l.begin();}
 		 }
 		 it =l.erase(it);
