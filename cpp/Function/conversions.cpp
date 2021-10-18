@@ -11,12 +11,14 @@
 //     int num, lastDigit, counter = 0, decnum = 0 ;
 //     cout<<"Enter the binary number : ";
 //     cin>>num;
+//     int base =1;
 //     while(num>0)
 //     {
 //         lastDigit = num%10;
-//         decnum +=  lastDigit*pow(2, counter);
+//         decnum +=  lastDigit*base;
 //         counter++;
 //         num = num/10;
+//         base *= 2;
 //     }
 //     cout<<"Decimal number is : "<<decnum<<endl;
 
@@ -36,12 +38,14 @@
 //     int num, lastDigit, counter = 0, decnum = 0 ;
 //     cout<<"Enter the octal number : ";
 //     cin>>num;
+//     int base=1;
 //     while(num>0)
 //     {
 //         lastDigit = num%10;
-//         decnum +=  lastDigit*pow(8, counter);
+//         decnum +=  lastDigit*base;
 //         counter++;
 //         num = num/10;
+//         base*=8;
 //     }
 //     cout<<"Decimal number is : "<<decnum<<endl;
 
