@@ -19,7 +19,6 @@ int min(int a,int b) {
 int main() {
 	int p[10][10],w,n,e,u,v,i,j;
 	int k;
-	;
 
 	printf("\n Enter the number of emergency exit:");
 	scanf("%d",&n);
@@ -55,7 +54,7 @@ int main() {
 		if(i!=j)
 		    printf("\n <%d,%d>=%d",k,j,p[k][j]);
 	}
-
+	return 0;
 }
 
 
