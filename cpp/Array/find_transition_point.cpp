@@ -1,3 +1,4 @@
+//https://www.geeksforgeeks.org/find-transition-point-binary-array/
 #include<iostream>
 using namespace std;
 
